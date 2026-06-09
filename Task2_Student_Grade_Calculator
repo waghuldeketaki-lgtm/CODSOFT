@@ -16,6 +16,7 @@ System.out.print("Enter the marks of Subject:"+ i +": ");
 int marks=sc.nextInt();
 total =total+marks;
 }
+
 System.out.println("Total Marks = " + total);
 sc.close();
 }
