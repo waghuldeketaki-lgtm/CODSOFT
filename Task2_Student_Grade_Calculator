@@ -37,5 +37,24 @@ System.out.println("Total Marks = " + total);
 sc.close();
 }
 }
+double percentage = (double) total/subjects;
+System.out.println("Percentage="+percentage + "%");
+char grade;
+if(percentage>=90){
+grade='A';
+}
+else if(percentage >= 80){
+grade='B';
+}
+else if(percentage >=70){
+grade='c';
+}
+else if(percentage >=60){
+grade = 'D';
+}
+else{
+grade='F';
+}
+System.out.println("Grade ="+grade);
 
 
