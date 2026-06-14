@@ -1,4 +1,4 @@
-Task 3: ATM Interface
+/*Task 3: ATM Interface
 
 Objective:
 
@@ -17,7 +17,8 @@ checkBalance()
 Create a class to represent the user's bank account, which stores the account balance.
 Connect the ATM class with the user's bank account class to access and modify the account balance.
 Validate user input to ensure it is within acceptable limits (e.g., sufficient balance for withdrawals).
-Display appropriate messages to the user based on their chosen options and the success or failure of their transactions.
+Display appropriate messages to the user based on their chosen options and the success or failure of 
+their transactions.*/
 
 
 code:
